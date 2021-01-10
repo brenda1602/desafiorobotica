@@ -974,19 +974,10 @@ PROTO Pioneer3dx [
         0 0 0
         5 100 0
       ]
-      }
-      DEF LOS1_3 LightSensor {
-        translation -0.0285304 0.145 -0.16417
-        rotation 0 1 0 2.3
-        name "lo1"
-        lookupTable [
-          0 0 0
-          5 100 0
-        ]
-        children [
+      children [
         Shape {
           appearance PBRAppearance {
-            baseColor 0 0 0
+            baseColor 1 0 0
             metalness 0
           }
           geometry Box {
@@ -995,14 +986,45 @@ PROTO Pioneer3dx [
         }
       ]
       }
+      DEF LOS1_3 LightSensor {
+        translation -0.05 0.145 -0.16
+        rotation 0 1 0 2.3
+        children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+        name "lo1"
+        lookupTable [
+          0 0 0
+          5 100 0
+        ]
+      }
       DEF LOS2_5 LightSensor {
-        translation 0.0780296 0.145 -0.145492
+        translation 0.05 0.145 -0.16
         rotation 0 1 0 0.9
         name "lo2"
         lookupTable [
           0 0 0
           5 100 0
         ]
+        children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
       }
       DEF UPPER_YELLOW_LED LED {
         translation -0.130135 0.105728 0.0530564
