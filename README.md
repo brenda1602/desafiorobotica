@@ -15,6 +15,6 @@ Author: Brenda Silva de Alencar
   The control used shows a good performance, the robot can find the arrival point in up to two minutes without many difficulties, even if it has taken a longer route
   
   ![](/Documents/robot_stop.png)
-  figure
+
 
 
