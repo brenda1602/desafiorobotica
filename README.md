@@ -1,6 +1,12 @@
 # Desafio Robótica 2021
 Author: Brenda Silva de Alencar
 
+## Contents
+- `Documents` - Mission images and video.
+- `Controllers`- Solution
+- `Protos` - Robot description
+- `Worlds` - World description
+
 ## Mission
   The robot must navigate autonomously, avoiding obstacles, until it reaches the region illuminated with a stop sign in up 2 minutes. This task should be developed in the Webot software environment, utilizing the Pioneer 3-DX Robot . 
 
